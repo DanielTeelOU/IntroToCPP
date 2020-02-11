@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/HW3.dir/q1.cpp.o CMakeFiles/HW3.dir/q2.cpp.o CMakeFiles/HW3.dir/q3.cpp.o CMakeFiles/HW3.dir/q4.cpp.o CMakeFiles/HW3.dir/q5.cpp.o CMakeFiles/HW3.dir/q6.cpp.o CMakeFiles/HW3.dir/q7.cpp.o  -o HW3 
