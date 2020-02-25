@@ -4,17 +4,11 @@
 Write a program that converts from 24-hour notation to 12-hour notation. For example, it should convert 14:25 to 2:25 P.M. The input is given as two integers. There should be at least three functions: one for input, one to do the conversion, and one for output. Record the A.M./P.M. information as a value of type char , 'A' for A.M. and 'P' for P.M. Thus, the function for doing the conversions will have a call-by reference formal parameter of type char to record whether it is A.M. or P.M. (The function will have other parameters as well.) Include a loop that lets the user repeat this computation for new input values again and again until the user says he or she wants to end the program.
 
 ## Question 2
-The area of an arbitrary triangle can be computed using the formula 
-* Area = sqrt(s(s-a)(s-b)(s-c)) where a, b, and c are the lengths of the sides, and s is the semiperimeter. s = (a + b + c)/2
-Write a void function that uses five parameters: three value parameters that provide the lengths of the edges, and two reference parameters that compute the area and perimeter ( not the semiperimeter ). Make your function robust. Note that not all combinations of a, b, and c produce a triangle. Your function should produce correct results for legal data and reasonable results for illegal combinations.
+The area of an arbitrary triangle can be computed using the formula Area = sqrt(s(s-a)(s-b)(s-c)) where a, b, and c are the lengths of the sides, and s is the semiperimeter. s = (a + b + c)/2 Write a void function that uses five parameters: three value parameters that provide the lengths of the edges, and two reference parameters that compute the area and perimeter ( not the semiperimeter ). Make your function robust. Note that not all combinations of a, b, and c produce a triangle. Your function should produce correct results for legal data and reasonable results for illegal combinations.
 
 ## Question 3
-Write a program that tells what coins to give out for any amount of change from 1 cent to 99 cents. For example, if the amount is 86 cents, the output would be something like the following: 
-* 86 cents can be given as 3 quarter(s) 1 dime(s) and 1 penny(pennies)
-* Use coin denominations of 25 cents (quarters), 10 cents (dimes), and 1 cent (pennies). Do not use nickel and half-dollar coins. Your program will use the following function (among others):
-void computeCoin( int coinValue, int& number, int& amountLeft);
-* Precondition: 0 < coinValue < 100; 0 <= amountLeft < 100.
-* Postcondition: number has been set equal to the maximum number of coins of denomination coinValue cents that can be obtained from amountLeft cents. amountLeft has been decreased by the value of the coins, that is, decreased by number*coinValue .
+Write a program that tells what coins to give out for any amount of change from 1 cent to 99 cents. For example, if the amount is 86 cents, the output would be something like the following: 86 cents can be given as 3 quarter(s) 1 dime(s) and 1 penny(pennies) Use coin denominations of 25 cents (quarters), 10 cents (dimes), and 1 cent (pennies). Do not use nickel and half-dollar coins. Your program will use the following function (among others):
+void computeCoin( int coinValue, int& number, int& amountLeft); Precondition: 0 < coinValue < 100; 0 <= amountLeft < 100. Postcondition: number has been set equal to the maximum number of coins of denomination coinValue cents that can be obtained from amountLeft cents. amountLeft has been decreased by the value of the coins, that is, decreased by number*coinValue .
 For example, suppose the value of the variable amountLeft is 86 . Then, after the following call, the value of number will be 3 and the value of amountLeft will be 11 (because if you take three quarters from 86 cents, that leaves 11 cents):
 computeCoins(25, number, amountLeft);
 Include a loop that lets the user repeat this computation for new input values until the user says he or she wants to end the program. ( Hint: Use integer division and the % operator to implement this function.)
