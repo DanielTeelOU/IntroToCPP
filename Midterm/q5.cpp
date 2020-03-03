@@ -3,16 +3,21 @@
 //
 
 #include <iostream>
-#include <array>
 
 int main() {
-    std::array<int , 5> x{1, 2 , 4, 5, 6};
+    int sumSquares(int arr[], int size);
+    int x[5] = {1, 6, 7, 8, 9};
+    int size = sizeof(x)/ sizeof(*x);
+    sumSquares(x, size);
+}
+
+int sumSquares(int arr[], int size) {
     int totalSquare = 0;
     int i = 0;
 
-    while (i < x.size()) {
-        int square = x[i] * x[i];
-        std::cout <<"The Square of " << x[i] << " is " << square << "\n";
+    while (i < size) {
+        int square = arr[i] * arr[i];
+        std::cout <<"The Square of " << arr[i] << " is " << square << "\n";
         totalSquare = totalSquare + square;
         i++;
     }
