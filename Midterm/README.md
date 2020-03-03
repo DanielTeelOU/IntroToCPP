@@ -1,10 +1,10 @@
 # Midterm Coding Questions
 
 ## Question 4
-If possible:
+### If possible:
 * Write two functions with the same name swapValues. Each function takes two parameters and swaps their values.
 * The first swapValues function takes two integers as parameters. The second swapValues function takes two booleans as parameters.
-If not possible:
+### If not possible:
 * Explain why it is not possible to write these two functions.
 
 ## Question 5
