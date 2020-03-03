@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Midterm.dir/q4.cpp.o CMakeFiles/Midterm.dir/q5.cpp.o CMakeFiles/Midterm.dir/q6.cpp.o  -o Midterm 
