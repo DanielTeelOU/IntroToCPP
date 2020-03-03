@@ -16,7 +16,7 @@ Note that
 ## Question 6
 Write a function called least2 that takes a parameter called arr which is an array of integers and finds and prints the smallest two numbers in arr. 
 For example, if least2 is invoked with arr={8, 11, 9, 3} it will print two numbers 3 and 8 as the smallest two numbers in arr.
-Note that
+### Note that
 * the size of the array arr is unknown.
 * arr is the only parameter of least2.
 * the smallest two numbers do not need to be returned from your function. Just printing them is sufficient.
