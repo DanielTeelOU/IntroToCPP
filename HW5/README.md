@@ -42,7 +42,6 @@ This world is an array with each cell capable of holding one LIFE cell. Generati
 <br/>
 Examples: *** becomes * then becomes *** again, and so on.<br/>
 <br/>
-
                                       * <br/>
 <br/>
 Notes: Some configurations grow from relatively small starting configurations. Others move across the region. It is recommended that for text output you use a rectangular char array with 80 columns and 22 rows to store the LIFE world’s successive generations. Use an * to indicate a living cell and use a blank to indicate an empty (or dead) cell. If you have a screen with more rows than that, by all means make use of the whole screen.
