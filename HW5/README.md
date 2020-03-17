@@ -38,12 +38,12 @@ This world is an array with each cell capable of holding one LIFE cell. Generati
 * If an empty cell has exactly three occupied neighbor cells, there is a birth of a new cell to replace the empty cell.
 * Births and deaths are instantaneous and occur at the changes of generation. A cell dying for whatever reason may help cause birth, but a newborn cell cannot resurrect a cell that is dying, nor will a cell’s death prevent the death of another, say, by reducing the local population.<br/>
 <br/>
-                                      *<br/>
+                                      * <br/>
 <br/>
 Examples: *** becomes * then becomes *** again, and so on.<br/>
 <br/>
 
-                                      *<br/>
+                                      * <br/>
 <br/>
 Notes: Some configurations grow from relatively small starting configurations. Others move across the region. It is recommended that for text output you use a rectangular char array with 80 columns and 22 rows to store the LIFE world’s successive generations. Use an * to indicate a living cell and use a blank to indicate an empty (or dead) cell. If you have a screen with more rows than that, by all means make use of the whole screen.
 Suggestions: Look for stable configurations. That is, look for communities that repeat patterns continually. The number of configurations in the repetition is called the period. There are configurations that are fixed, that is, that continue without change. A possible project is to find such configurations.
