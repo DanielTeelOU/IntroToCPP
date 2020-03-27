@@ -1,0 +1,18 @@
+# Homework 6
+## Question 1
+Write a grading program for a class with the following grading policies:<br/>
+a. There are two quizzes, each graded on the basis of 10 points.<br/>
+b. There is one midterm exam and one final exam, each graded on the basis of 100 	points.<br/>
+c. The final exam counts for 50% of the grade, the midterm counts for 25%, and the 	two quizzes together count for a total of 25%. (Do not forget to normalize the 		quiz scores. They should be converted to a percentage before they are averaged in.)<br/>
+Any grade of 90 or more is an A, any grade of 80 or more (but less than 90) is a B, any grade of 70 or more (but less than 80) is a C, any grade of 60 or more (but less than 70) is a D, and any grade below 60 is an F. The program will read in the student’s scores and output the student’s record, which consists of two quiz and two exam scores as well as the student’s average numeric score for the entire course and final letter grade. Define and use a structure for the student record.
+
+## Question 2
+Define a class for a type called CounterType . An object of this type is used to count things, so it records a count that is a nonnegative whole number. Include a mutator function that sets the counter to a count given as an argument. Include member functions to increase the count by one and to decrease the count by one. Be sure that no member function allows the value of the counter to become negative. Also, include a member function that returns the current count value and one that outputs the count. Embed your class definition in a test program.
+
+## Question 3
+The type Point is a fairly simple data type, but under another name (the template class pair ) this data type is defined and used in the C++ Standard Template Library, although you need not know anything about the Standard Template Library to do this exercise. Write a definition of a class named Point that might be used to store and manipulate the location of a point in the plane. You will need to declare and implement the following member functions:<br/>
+a. A member function set that sets the private data after an object of this class is created.<br/>
+b. A member function to move the point by an amount along the vertical and horizontal directions specified by the first and second arguments.<br/>
+c A member function to rotate the point by 90 degrees clockwise around the origin.<br/>
+d. Two const inspector functions to retrieve the current coordinates of the point.<br/>
+Document these functions with appropriate comments. Embed your class in a test program that requests data for several points from the user, creates the points, then exercises the member functions.
