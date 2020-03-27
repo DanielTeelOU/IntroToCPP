@@ -12,7 +12,7 @@ Any grade of 90 or more is an A, any grade of 80 or more (but less than 90) is a
 
 a. A member function set that sets the private data after an object of this class is created.
 b. A member function to move the point by an amount along the vertical and horizontal directions specified by the first and second arguments.
-c A member function to rotate the point by 90 degrees clockwise around the origin.
+c. A member function to rotate the point by 90 degrees clockwise around the origin.
 d. Two const inspector functions to retrieve the current coordinates of the point.
 
 Document these functions with appropriate comments. Embed your class in a test program that requests data for several points from the user, creates the points, then exercises the member functions.
