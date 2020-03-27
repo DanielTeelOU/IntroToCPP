@@ -44,21 +44,21 @@ RM = "/Users/dannyteel/Library/Application Support/JetBrains/Toolbox/apps/CLion/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dannyteel/Dev/C/C++/HW5
+CMAKE_SOURCE_DIR = /Users/dannyteel/Dev/C/C++/HW6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dannyteel/Dev/C/C++/HW5/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/dannyteel/Dev/C/C++/HW6/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/HW5.dir/all
+all: CMakeFiles/HW6.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/HW5.dir/clean
+clean: CMakeFiles/HW6.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/HW5.dir
+# Target rules for target CMakeFiles/HW6.dir
 
 # All Build rule for target.
-CMakeFiles/HW5.dir/all:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/depend
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dannyteel/Dev/C/C++/HW5/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target HW5"
-.PHONY : CMakeFiles/HW5.dir/all
+CMakeFiles/HW6.dir/all:
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/depend
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dannyteel/Dev/C/C++/HW6/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target HW6"
+.PHONY : CMakeFiles/HW6.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/HW5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dannyteel/Dev/C/C++/HW5/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HW5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dannyteel/Dev/C/C++/HW5/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/HW5.dir/rule
+CMakeFiles/HW6.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dannyteel/Dev/C/C++/HW6/cmake-build-debug/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HW6.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dannyteel/Dev/C/C++/HW6/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/HW6.dir/rule
 
 # Convenience name for target.
-HW5: CMakeFiles/HW5.dir/rule
+HW6: CMakeFiles/HW6.dir/rule
 
-.PHONY : HW5
+.PHONY : HW6
 
 # clean rule for target.
-CMakeFiles/HW5.dir/clean:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/clean
-.PHONY : CMakeFiles/HW5.dir/clean
+CMakeFiles/HW6.dir/clean:
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/clean
+.PHONY : CMakeFiles/HW6.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

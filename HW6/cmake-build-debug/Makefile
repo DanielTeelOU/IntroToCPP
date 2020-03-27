@@ -48,10 +48,10 @@ RM = "/Users/dannyteel/Library/Application Support/JetBrains/Toolbox/apps/CLion/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dannyteel/Dev/C/C++/HW5
+CMAKE_SOURCE_DIR = /Users/dannyteel/Dev/C/C++/HW6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dannyteel/Dev/C/C++/HW5/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/dannyteel/Dev/C/C++/HW6/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dannyteel/Dev/C/C++/HW5/cmake-build-debug/CMakeFiles /Users/dannyteel/Dev/C/C++/HW5/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dannyteel/Dev/C/C++/HW6/cmake-build-debug/CMakeFiles /Users/dannyteel/Dev/C/C++/HW6/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dannyteel/Dev/C/C++/HW5/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dannyteel/Dev/C/C++/HW6/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HW5
+# Target rules for targets named HW6
 
 # Build rule for target.
-HW5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HW5
-.PHONY : HW5
+HW6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HW6
+.PHONY : HW6
 
 # fast build rule for target.
-HW5/fast:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/build
-.PHONY : HW5/fast
+HW6/fast:
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/build
+.PHONY : HW6/fast
 
 q1.o: q1.cpp.o
 
@@ -129,7 +129,7 @@ q1.o: q1.cpp.o
 
 # target to build an object file
 q1.cpp.o:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/q1.cpp.o
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/q1.cpp.o
 .PHONY : q1.cpp.o
 
 q1.i: q1.cpp.i
@@ -138,7 +138,7 @@ q1.i: q1.cpp.i
 
 # target to preprocess a source file
 q1.cpp.i:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/q1.cpp.i
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/q1.cpp.i
 .PHONY : q1.cpp.i
 
 q1.s: q1.cpp.s
@@ -147,7 +147,7 @@ q1.s: q1.cpp.s
 
 # target to generate assembly for a file
 q1.cpp.s:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/q1.cpp.s
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/q1.cpp.s
 .PHONY : q1.cpp.s
 
 q2.o: q2.cpp.o
@@ -156,7 +156,7 @@ q2.o: q2.cpp.o
 
 # target to build an object file
 q2.cpp.o:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/q2.cpp.o
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/q2.cpp.o
 .PHONY : q2.cpp.o
 
 q2.i: q2.cpp.i
@@ -165,7 +165,7 @@ q2.i: q2.cpp.i
 
 # target to preprocess a source file
 q2.cpp.i:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/q2.cpp.i
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/q2.cpp.i
 .PHONY : q2.cpp.i
 
 q2.s: q2.cpp.s
@@ -174,7 +174,7 @@ q2.s: q2.cpp.s
 
 # target to generate assembly for a file
 q2.cpp.s:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/q2.cpp.s
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/q2.cpp.s
 .PHONY : q2.cpp.s
 
 q3.o: q3.cpp.o
@@ -183,7 +183,7 @@ q3.o: q3.cpp.o
 
 # target to build an object file
 q3.cpp.o:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/q3.cpp.o
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/q3.cpp.o
 .PHONY : q3.cpp.o
 
 q3.i: q3.cpp.i
@@ -192,7 +192,7 @@ q3.i: q3.cpp.i
 
 # target to preprocess a source file
 q3.cpp.i:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/q3.cpp.i
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/q3.cpp.i
 .PHONY : q3.cpp.i
 
 q3.s: q3.cpp.s
@@ -201,7 +201,7 @@ q3.s: q3.cpp.s
 
 # target to generate assembly for a file
 q3.cpp.s:
-	$(MAKE) -f CMakeFiles/HW5.dir/build.make CMakeFiles/HW5.dir/q3.cpp.s
+	$(MAKE) -f CMakeFiles/HW6.dir/build.make CMakeFiles/HW6.dir/q3.cpp.s
 .PHONY : q3.cpp.s
 
 # Help Target
@@ -212,7 +212,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... HW5"
+	@echo "... HW6"
 	@echo "... q1.o"
 	@echo "... q1.i"
 	@echo "... q1.s"

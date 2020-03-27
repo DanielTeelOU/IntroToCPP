@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dannyteel/Dev/C/C++/HW6/q1.cpp
+iostream
+-
+iomanip
+-
+string
+-
+
+/Users/dannyteel/Dev/C/C++/HW6/q2.cpp
+
