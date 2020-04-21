@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/dannyteel/Dev/C/C++/HW7/q1.cpp
+/Users/dannyteel/Dev/C/C++/Final/q4.cpp
 iostream
+-
+iomanip
 -
 
-/Users/dannyteel/Dev/C/C++/HW7/q2.cpp
-iostream
--
+/Users/dannyteel/Dev/C/C++/Final/q5.cpp
+
+/Users/dannyteel/Dev/C/C++/Final/q6.cpp
 
